@@ -109,7 +109,7 @@ button {
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(228, 66%, 62%);
+  --first-color: #0b668d;
   --second-color: hsl(25, 57%, 54%);
   --title-color: hsl(228, 8%, 95%);
   --text-color: hsl(228, 8%, 70%);

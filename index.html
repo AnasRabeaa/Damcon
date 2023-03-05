@@ -68,7 +68,10 @@
         <!-- Theme change button -->
         <i class="bx bx-moon change-theme" id="theme-button"></i>
 
-        <a href="#" class="button nav__button"> Subscripe </a>
+        <a href="#" class="button nav__button"> 
+          <i class='bx bx-log-in' ></i>
+          Login
+        </a>
       </nav>
     </header>
 
@@ -96,7 +99,9 @@
                 placeholder="location..."
                 class="home__search-input"
               />
-              <button class="button">Search</button>
+              <button class="button button-search">
+                <i class='bx bx-search' ></i>
+              </button>
             </form>
 
             <div class="home__value">
@@ -347,8 +352,11 @@
               <p class="subscribe__description">
                   Subscribe and find super attractive price quotes from us, Find your
                   residence soon
-                </p>
-                <a href="#" class="button subscribe__button"> Get Started </a>
+              </p>
+              <form action="#">
+                <input class="box" type="text" value="" placeholder="Email Address...">
+                <a href="#" class="button subscribe__button"> Subscribe </a>
+              </form>
             </div>
         </section>
         
@@ -422,11 +430,15 @@
               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15076.89592087332!2d72.8319697277345!3d19.14167056419224!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1641716772852!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
               <form action="">
                   <h3>get in touch</h3>
-                  <input type="text" placeholder="name" class="box">
-                  <input type="email" placeholder="email" class="box">
+                  <label for=""><i class='bx bx-user' ></i> Name</label>
+                  <input type="text" placeholder="enter your name" class="box">
+                  <label for=""><i class='bx bx-envelope'></i> Email</label>
+                  <input type="email" placeholder="enter your email address" class="box">
+                  <label for=""><i class='bx bx-phone'></i> Phone</label>
                   <input type="number" placeholder="phone" class="box">
+                  <label for=""><i class='bx bx-message-rounded-dots'></i> Message</label>
                   <textarea name="" placeholder="message" class="box" id="" cols="30" rows="10"></textarea>
-                  <input type="submit" value="send message" class="button">
+                  <button class="button" type="submit" >  send message <i class='bx bx-send' ></i> </button>
               </form>
           </div>
         </section>

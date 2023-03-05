@@ -346,7 +346,7 @@ body.dark-theme {
   display: flex;
   justify-content: space-around;
   column-gap: 2.5rem;
-  background-color: var(--first-color);
+  background: linear-gradient(101deg, #9ed1e7, #2388b4);
   border-radius: 0.75rem;
   padding: 1rem;
 }
@@ -363,7 +363,7 @@ body.dark-theme {
 
 .home__value_description {
   display: flex;
-  color: var(--text-color-light);
+  color: var(--text-color);
   font-size: var(--smaller-font-size);
 }
 
